@@ -1,0 +1,118 @@
+*{
+	margin:0;
+	padding:0; 
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+
+	background-color:mistyrose;
+
+}
+
+.info{
+
+	max-width: 780px;
+	background-color:silver;
+	margin:0 auto; 
+      	 }
+
+header{
+
+
+}
+
+.image{
+
+	width:100px;
+	height: 120px;
+	border:3px solid black;
+	border-radius:100%;
+	float:left; 
+
+}
+
+.header-bio{
+	float:left;
+	padding:25px;  
+}
+
+h1, h2, h3, h4, h5, h6{
+	color:navy; 
+}
+
+.header-name{
+	float:right; 
+	padding:25px; 
+}
+
+.header-name a{
+	text-decoration:none;
+	color:darkblue;
+	font-weight: bold; 
+}
+.header-name a:hover{
+	text-decoration:underline;
+	color:goldenrod; 
+}
+
+
+.div-clear{
+	clear:both;
+}
+
+hr{
+	border:solid indigo 3px;
+}
+
+
+
+#personal-sec{
+
+}
+
+.content{
+margin-bottom: 30px;
+}
+
+.left-div{
+	width: 30%;
+	float:left; 
+}
+
+.right-div{
+	width: 70%;
+	float:left;
+}
+.common-hr{
+	boder:solid indigo 2px;
+	border-bottom:none;
+	width: 99%;
+	margin:20px auto;
+}
+
+.edu-left{
+	float:left;
+	width: 45%; 
+}
+
+.edu-right{
+	float:right;
+	width: 45%;
+}
+
+.footer-container{
+	background-color:darkslategray;
+	text-align: center;
+	padding: 10px; 
+}
+.footer-container a{
+	color: powderblue;
+	text-decoration: none;
+	margin:20px;
+
+
+}
+.footer-container p{
+	color: mintcream;
+}
